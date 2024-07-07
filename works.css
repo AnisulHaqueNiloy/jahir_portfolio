@@ -11,12 +11,15 @@
   text-align: center;
   padding: 60px 60px 80px 60px;
 }
+.work-cards a {
+  display: block;
+}
 
 .work-cards {
   display: flex;
   justify-content: space-around;
 
-  gap: 8px;
+  gap: 4px;
 }
 
 .work-card {
