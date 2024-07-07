@@ -1,0 +1,33 @@
+.about-me-section {
+  user-select: none;
+  background-color: rgb(24, 23, 23);
+}
+.about-me-container {
+  padding: 80px 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.gradiant {
+  mask-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6));
+}
+
+h1 {
+  padding: 20px 10px;
+  font-size: 60px;
+  color: red;
+}
+h3 {
+  padding: 10px 10px;
+  font-size: 40px;
+}
+span {
+  color: red;
+}
+
+p {
+  text-align: justify;
+  padding: 10px 10px;
+  color: rgb(179, 182, 184);
+  font-size: 24px;
+}

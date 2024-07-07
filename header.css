@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* :root {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: regular;
+  font-style: normal;
+  font-size: 16px;
+} */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+header {
+  /* background-image: url(image/primary.png); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(image/primary.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000000ec;
+  height: 100vh;
+  background-position: 80%;
+  border: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+.web-title {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.lio {
+  font-size: 60px;
+  color: red;
+  font-weight: bolder;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+  align-items: center;
+  font-size: 24px;
+  transition: 0.4s ease-in;
+}
+
+nav ul li:hover {
+  font-size: 28px;
+  color: red;
+  padding: 4px;
+  border: 1px solid red;
+  border-radius: 14px;
+  box-shadow: 0px 0px 1px 0.3px red;
+}
+
+.btn_primary {
+  border: none;
+  background-color: red;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.4s ease-in;
+}
+
+.btn_primary:hover {
+  color: black;
+  background-color: white;
+  box-shadow: 0.2px 0.2px 2px 0.8px red;
+  transform: scale(1.2);
+}
+
+.banner {
+  margin: 100px 60px;
+}
+
+.banner_greeting {
+  margin-bottom: 10px;
+  font-size: 48px;
+}
+
+.banner_title {
+  font-size: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner p {
+  font-size: 60px;
+}
+#banner_title {
+  color: red;
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.form {
+  margin-top: 60px;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+}
+.form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #f9004d;
+  border-radius: 30px;
+  outline: none;
+  color: black;
+}
+
+.form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: white;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 5px rgb(107, 105, 105), 0px 0px 15px rgb(107, 105, 105);
+  top: 6px;
+  right: 6px;
+}
